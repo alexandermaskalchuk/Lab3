@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link href="style3.css" rel="stylesheet">
+	</head>
+<body>
+	<div class="cnvs">
+		<canvas id="c1"></canvas>
+	</div>
+	<div class="colors">
+		<p><input type = "radio" name="choice" value = "red" onclick="changeColor()"> Red</p>
+		<p><input type = "radio" name = "choice" value = "green" onclick="changeColor()"> Green</p>
+		<p><input type = "radio" name = "choice" value = "blue" onclick="changeColor()"> Blue</p>
+	</div>	
+	<div class = "figures"> 
+		<p><input type = "radio" name = "choice1" value = "rect" onclick="changeColor()" checked="true"> Rectangle</p>
+		<p><input type = "radio" name = "choice1" value = "circle" onclick="changeColor()"> Circle</p>
+	</div>
+	<div>
+		<p><input type = "range" id = "range1" class = "polz" min = 1 value = 5 max = 10 step = 1></p>
+	</div>	
+	<script src ="js.js"></script>	
+</body>
+</html>
